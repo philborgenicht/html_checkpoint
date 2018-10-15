@@ -1,0 +1,39 @@
+body {
+background-color: gray;
+border: 5px;
+padding: 5px;
+}
+
+h1 {
+  font-style: italic;
+  font-family: cursive;
+  font-size: 50px;
+
+}
+
+p{
+  font-size: 25px;
+  color: blue;
+
+}
+
+input{
+font-size: 30px;
+color: green;
+
+}
+
+label{
+  font-size: 30px;
+
+
+}
+
+marquee{
+font-size: 20px;
+color: red;
+}
+
+img {
+  border-radius: 100px;
+}
