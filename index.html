@@ -31,19 +31,19 @@
 
 <form>
 
-<label>
+<label for="EMAIL ADDRESS">
   email address
   <input type= "email" name="EMAIL ADDRESS" value="" placeholder="please enter your email address">
 </label>
 <br><br>
 
-<label>
+<label for="PASSWORD">
   password
   <input maxlength=10 minlength=5 type="password" name="PASSWORD" value="" placeholder="please enter your password">
 </label>
 <br><br>
 
-<label>
+<label for="USERNAME">
   gitHub username
   <input type="username" name="USERNAME" value="" placeholder="please enter your your github username">
 </label>
@@ -56,13 +56,30 @@
 
 
   <p>If you are a business member, please select your desired membership type. We offer a free membership, a professional membership, for $19.99 a month, or an enterprise membership for an all in price of $499.99</p>
-  <input type="radio" name="membership type" value="Free"> Free
-  <input type="radio" name="membership type" value="Pro"> Pro
-  <input type="radio" name="membership type" value="Enterprise" > Enterprise
+<label for="Free">
+FREE
+  <input type="radio" name="membership type" value="Free">
+
+</label>
+
+<label for="Pro">
+  PRO
+  <input type="radio" name="membership type" value="Pro">
+</label>
+
+<label for="Enterprise">
+  ENTERPRISE
+
+  <input type="radio" name="membership type" value="Enterprise" >
+</label>
 <br>
 <h1> Sign Up! </h1>
 <p> Don't forget to signup for our mailing list and newsletter! </p>
-<input type="checkbox" name="signup" value="Remember Me!"> Remember Me!
+
+<label for="signup">
+  SIGNUP
+<input type="checkbox" name="signup" value="Remember Me!">
+</label>
 
 <br><br><br><br>
 <input type="submit" name="submit">
