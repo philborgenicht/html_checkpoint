@@ -1,14 +1,17 @@
-<!DOCTYPE HTLM>
+<!DOCTYPE HTML>
 
-<html>
-<title>basic forms</title>
+<html lang="en">
+
+
+
 <head>
-
   <link href="./index.css"
   type="text/css"
   rel="stylesheet">
 
+<title> basic forms</title>
 </head>
+
 <body>
   <h1>
     Vandelay Industries
@@ -21,76 +24,81 @@
     really long matches.
   </p>
 
-  <h2>
     <a href=http://seinfeld.wikia.com/wiki/Art_Vandelay target= blank> ALL ABOUT ART </a>
     <br>
-    <h1> User Information</h1>
+<h1> User Information</h1>
 
-    <p> If you want to subscribe to our newsletter and mailing list, please type in your information below. Also, feel free to check us out on gitHub</a>
-<section id="User_Information">
+    <p> If you want to subscribe to our newsletter and mailing list, please type in your information below. Also, feel free to check us out on gitHub</p>
+
 
 <form>
+<section id="User_Information">
+
+
 
 <label for="email">
   email address
-  <input type= "email" name="EMAIL ADDRESS" value="email" id="email" placeholder="please enter your email address">
+  <input type= "email" name="EMAIL ADDRESS"  id="email" placeholder="please enter your email address" required>
 </label>
 <br><br>
 
 <label for="password">
   password
-  <input maxlength=10 minlength=5 type="password" name="PASSWORD" value="password" id="password" placeholder="please enter your password">
+  <input maxlength=10 minlength=5 type="password" name="PASSWORD" value="" id="password" placeholder="please enter your password" required>
 </label>
 <br><br>
 
 <label for="username">
   gitHub username
-  <input type="username" name="USERNAME" value="username" id= "username" placeholder="please enter your your github username">
+  <input type="text" name="USERNAME"  id= "username" placeholder="please enter your username" required>
 </label>
-</br>
+<br>
+</section>
 
 <section id="Account_Type">
 
 
-  <h1> Membership Information</h1>
+  <h2> Membership Information</h2>
 
 
   <p>If you are a business member, please select your desired membership type. We offer a free membership, a professional membership, for $19.99 a month, or an enterprise membership for an all in price of $499.99</p>
 <label for="free">
 FREE
-  <input type="radio" name="membership type" id= "free" value="Free">
+  <input type="radio" name="membership type" id= "free"  required>
 
 </label>
 
 <label for="pro">
   PRO
-  <input type="radio" name="membership type" id = "pro" value="Pro">
+  <input type="radio" name="membership type" id = "pro" required>
 </label>
 
 <label for="enterprise">
   ENTERPRISE
 
-  <input type="radio" name="membership type" id="enterprise" value="Enterprise" >
+  <input type="radio" name="membership type" id="enterprise"  required>
 </label>
+
+
 <br>
 <h1> Sign Up! </h1>
 <p> Don't forget to signup for our mailing list and newsletter! </p>
 
 <label for="signup">
-  SIGNUP
-<input type="checkbox" name="signup" id= "signup" value="Remember Me!">
+  Remember Me!
+<input type="checkbox" name="signup" id= "signup" required>
 </label>
+
+</section>
 
 <br><br><br><br>
 <input type="submit" name="submit">
 
 </form>
 
-<img src=george.jpg alt="the founder" >
+<img src=george.jpeg alt="the founder"/>
 
-
-<marquee>phil borgenicht</blink>
 
 </body>
 
-</html
+</html>
